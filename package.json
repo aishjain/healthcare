@@ -1,0 +1,18 @@
+{
+  "name": "mqtttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mosca": "^2.8.2",
+    "mqtt": "^2.18.2"
+  }
+}
